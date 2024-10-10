@@ -1,0 +1,7 @@
+How to change branch in GitHub
+
+step 1: git checkout -b name branch
+step 2:touch filename
+step 3:git add .
+step 4:git status
+step 5:git commit -m ""
