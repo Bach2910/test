@@ -1,0 +1,8 @@
+how to update file in GitHub
+
+step 1:cd path/to/your/project
+step 2:git init
+step 3:git add .
+step 4:git commit -m ""
+step 5:git remote add origin https://github.com/your-username/your-repo.git
+step 6:git push -u origin master
