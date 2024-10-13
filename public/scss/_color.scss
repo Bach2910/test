@@ -1,0 +1,82 @@
+body {
+    font-family: $language;
+    background:  $background;
+}
+.nav-link{
+    color:#999999;
+}
+.nav-link .highlight{
+    color:$nav-link-color;
+}
+.nav-link b {
+    color: $nav-link-color;
+}
+h4{
+    .highlight{
+        color:$nav-link-color;
+    }
+}
+.card-main-1{
+    background: $background-content;
+
+}
+.card-main-2{
+    background: $background-content;
+}
+.card {
+    box-shadow: $box-shadow;
+    .card-title {
+        color: $nav-link-color;
+
+        .learn-more {
+            color: $nav-link-color /* Optional: Set the color */
+
+        }
+    }
+}
+
+/* Container styling */
+.content-main{
+    background: $background-content;
+
+}
+
+/* Left content styling */
+.left-content .learn-more {
+    color: #007bff;
+}
+.left-content .code-example img {
+    box-shadow:$box-shadow ;
+}
+/* Right content styling */
+.feature-item p {
+
+    color: $p;
+
+}
+.about-us {
+    background: $background-content;
+
+}
+.company{
+    background: $background-content;
+}
+.company img{
+    box-shadow: $box-shadow;
+}
+.new-content{
+    background: $background-content;
+}
+.footer-content{
+    background-color: $nav-link-color; /* Adjust to your background color */
+    color: $background-content;
+}
+.footer-container{
+    .phone{
+        background: $background-phone;
+    }
+}
+.highlight{
+    color:$nav-link-color;
+}
+

@@ -1,0 +1,60 @@
+.product-section {
+    .product-section-intro {
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            .product-section-intro-left {
+                .highlight {
+                    color: #2C4A9F!important;
+                }
+            }
+            .product-section-intro-right {
+                position: absolute;
+                right: 125px
+            }
+        }
+    }
+}
+.product-container-fluid{
+    padding-left: 24px;
+    padding-right: 24px
+}
+.product-section-advantage{
+    .product-section-advantage-title{
+
+    }
+    .product-section-advantage-box{
+        .col-md-6{
+
+        }
+    }
+}
+.product-section-operate{
+    .container{
+        .text-center-mobile{
+            text-align: center;
+        }
+    }
+}
+
+.product-section-price {
+    padding: 1em 1em 1.5em!important;
+    .row{
+        .product-section-price-box{
+            margin-top: 15px!important;
+            margin-left: 0!important
+        }
+        .product-section-price-box-primary{
+            background: #2b4aa0!important;
+            color: #fff!important;
+            opacity: 1!important;
+            width: 27%!important;
+            margin-left: 0!important;
+            .info-color {
+                color: #57d7ff!important
+            }
+        }
+    }
+}

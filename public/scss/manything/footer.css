@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.footer-content {
+  padding: 10px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.footer-container .logo {
+  text-align: center;
+}
+
+.footer-container .phone {
+  width: 180px; /* Độ rộng của hình chữ nhật */
+  height: 65px; /* Chiều cao của hình chữ nhật */
+  margin-top: 30px; /* Khoảng đệm */
+  padding: 10px;
+  box-sizing: border-box; /* Sử dụng border-box */
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=footer.css.map */

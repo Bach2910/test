@@ -1,0 +1,10 @@
+.card {
+    display: flex;
+   ;
+}
+
+.card .cart-title {
+    padding: 10px 10px 10px 10px;
+}
+
+/*# sourceMappingURL=_card.css.map */

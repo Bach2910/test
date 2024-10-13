@@ -1,0 +1,259 @@
+.content {
+    margin-top: 100px;
+
+    h2 {
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    h6 {
+        font-size: 15px;
+        padding: 10px 10% 10px 10%;
+        text-align: center;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .img-content {
+        width: auto;
+        display: flex;
+        justify-content: center; /* Căn giữa hình ảnh theo chiều ngang */
+        align-items: center; /* Căn giữa hình ảnh theo chiều dọc (nếu cần) */
+        height: 80vh; /* Tùy chọn, chiều cao của phần tử chứa hình ảnh */
+    }
+    h4 {
+        text-align: center;
+    }
+}
+.button-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.link-wrapper {
+    display: flex;
+    justify-content: center; /* Centers the link horizontally */
+}
+
+.learn-more {
+    text-align: center;
+    display: flex;
+    align-items: center; /* Aligns text and icon vertically */
+    text-decoration: none; /* Optional: Remove underline */
+}
+
+.learn-more i {
+    margin-left: 8px; /* Space between text and icon */
+}
+
+/* Container styling */
+.content-main {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.content-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+
+    .left-content-2 {
+        max-width: 50%;
+        text-align: left;
+        align-items: end;
+        margin-right: 80px;
+    }
+
+    .right-content-2 {
+        flex: 0 0 50%;
+
+        .button-product {
+            margin-top: 20px;
+        }
+    }
+}
+
+/* Left content styling */
+.left-content {
+    flex: 1;
+    max-width: 54%;
+    text-align: left;
+}
+
+.left-content .learn-more {
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+    display: inline-block;
+
+}
+
+.left-content .code-example img {
+    width: 100%;
+    align-items: end;
+}
+
+/* Right content styling */
+.right-content {
+    flex: 0 0 46%;
+    margin-left: 60px;
+    margin-right: 0;
+}
+
+.feature-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .highlight {
+        color: $nav-link-color;
+    }
+
+    h5 {
+        font-weight: lighter;
+    }
+
+    h3 {
+        font-size: 22px;
+        text-align: start;
+    }
+
+    .card-main {
+        background: $background;
+        align-items: end;
+
+        .card-content {
+            border-radius: 10px;
+            box-shadow: $box-shadow;
+            text-align: left;
+            background: $background-content;
+        }
+
+        h3 b {
+            font-size: 18px;
+        }
+
+        .feature-item-1 {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            border-radius: 10px;
+            box-shadow: $box-shadow;
+            margin-bottom: 10px;
+            background: $background-content;
+        }
+
+        .feature-item-2 {
+            display: flex;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: $box-shadow;
+            margin-bottom: 10px;
+            background: $background-content;
+        }
+
+        .feature-item-3 {
+            display: flex;
+            align-items: center;
+            box-shadow: $box-shadow;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            background: $background-content;
+        }
+
+        .feature-item-4 {
+            display: flex;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: $box-shadow;
+            background: $background-content;
+        }
+    }
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.feature-icon {
+    width: auto;
+    height: auto;
+}
+
+.feature-item p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.about-us {
+    padding-left: 5%;
+    padding-right: 5%;
+
+    .title {
+        text-align: center;
+    }
+
+    h5 {
+        text-align: center;
+        font-weight: lighter;
+    }
+
+    .about-main {
+        margin-top: 10px;
+        padding-top: 10px;
+
+        .content-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 30px;
+            gap: 40px;
+
+            .left-content {
+                .button-product {
+                    margin-top: 50px;
+                    display: flex;
+                    justify-content: end;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+}
+.company {
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center; /* Căn giữa nội dung trong header */
+}
+
+.company img {
+    margin-bottom: 10px;
+}
+
+.new-content {
+    background: white;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+
+
+

@@ -1,0 +1,23 @@
+#navbarNav {
+    justify-content: space-between;
+}
+.header {
+    line-height: 50px;
+    background: #fff0;
+    position: sticky;
+}
+.active {
+    color: #2B4AA0 !important;
+}
+.header-item {
+    color: #333333;
+}
+.navbar-toggler {
+    border-radius: 50px;
+    border: none;
+    background: rgba(197, 232, 250, 0.12);
+}
+.navbar-toggler-icon {
+    background-image: url(https://www.testcenter.vn/images/introductions/bars.png) !important;
+    background-size: inherit;
+}

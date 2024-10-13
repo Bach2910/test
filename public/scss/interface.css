@@ -1,0 +1,493 @@
+@charset "UTF-8";
+/*Variable*/
+/*color*/
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background: white;
+}
+
+.nav-link {
+  color: #999999;
+}
+
+.nav-link .highlight {
+  color: #ADD8E6;
+}
+
+.nav-link b {
+  color: #ADD8E6;
+}
+
+h4 .highlight {
+  color: #ADD8E6;
+}
+
+.card-main-1 {
+  background: white;
+}
+
+.card-main-2 {
+  background: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card .card-title {
+  color: #ADD8E6;
+}
+.card .card-title .learn-more {
+  color: #ADD8E6;
+}
+
+/* Container styling */
+.content-main {
+  background: white;
+}
+
+/* Left content styling */
+.left-content .learn-more {
+  color: #007bff;
+}
+
+.left-content .code-example img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Right content styling */
+.feature-item p {
+  color: 12px;
+}
+
+.about-us {
+  background: white;
+}
+
+.company {
+  background: white;
+}
+
+.company img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.new-content {
+  background: white;
+}
+
+.footer-content {
+  background-color: #ADD8E6; /* Adjust to your background color */
+  color: white;
+}
+
+.footer-container .phone {
+  background: white;
+}
+
+.highlight {
+  color: #ADD8E6;
+}
+
+/*manyThing*/
+#navbarNav {
+  justify-content: space-between;
+}
+
+.header {
+  line-height: 50px;
+  background: rgba(255, 255, 255, 0);
+  position: sticky;
+}
+
+.active {
+  color: #2B4AA0 !important;
+}
+
+.header-item {
+  color: #333333;
+}
+
+.navbar-toggler {
+  border-radius: 50px;
+  border: none;
+  background: rgba(197, 232, 250, 0.12);
+}
+
+.navbar-toggler-icon {
+  background-image: url(https://www.testcenter.vn/images/introductions/bars.png) !important;
+  background-size: inherit;
+}
+
+.card-main-1 {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-main-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.card-container {
+  display: flex; /* Sắp xếp các thẻ theo chiều ngang */
+  justify-content: space-between; /* Tạo khoảng cách đều giữa các thẻ */
+  flex-wrap: wrap; /* Khi số lượng thẻ vượt quá sẽ được đẩy xuống dòng dưới */
+  gap: 20px; /* Khoảng cách giữa các thẻ*/
+  padding-top: 20px;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.card {
+  flex: 0 0 calc(50% - 20px); /* Đảm bảo rằng mỗi thẻ chiếm 50% chiều rộng trừ đi khoảng cách */
+  width: 18rem;
+  border-radius: 10px; /* Bo góc card (tùy chọn) */
+}
+.card .card-title {
+  font-size: 18px;
+  text-align: center;
+}
+.card .card-text {
+  font-size: 16px;
+  text-align: center;
+}
+.card .card-body img {
+  display: flex;
+  align-items: center; /* Căn giữa theo trục dọc */
+  justify-content: center; /* Căn giữa theo trục ngang */
+  max-width: 100%; /* Đảm bảo rằng hình ảnh không vượt quá kích thước của thẻ */
+  height: auto; /* Đảm bảo hình ảnh giữ nguyên tỷ lệ */
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+  }
+}
+.content {
+  margin-top: 100px;
+}
+.content h2 {
+  padding-top: 50px;
+  text-align: center;
+}
+.content h6 {
+  font-size: 15px;
+  padding: 10px 10% 10px 10%;
+  text-align: center;
+}
+.content .button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.content .img-content {
+  width: auto;
+  display: flex;
+  justify-content: center; /* Căn giữa hình ảnh theo chiều ngang */
+  align-items: center; /* Căn giữa hình ảnh theo chiều dọc (nếu cần) */
+  height: 80vh; /* Tùy chọn, chiều cao của phần tử chứa hình ảnh */
+}
+.content h4 {
+  text-align: center;
+}
+
+.button-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.link-wrapper {
+  display: flex;
+  justify-content: center; /* Centers the link horizontally */
+}
+
+.learn-more {
+  text-align: center;
+  display: flex;
+  align-items: center; /* Aligns text and icon vertically */
+  text-decoration: none; /* Optional: Remove underline */
+}
+
+.learn-more i {
+  margin-left: 8px; /* Space between text and icon */
+}
+
+/* Container styling */
+.content-main {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.content-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+.content-section .left-content-2 {
+  max-width: 50%;
+  text-align: left;
+  align-items: end;
+  margin-right: 80px;
+}
+.content-section .right-content-2 {
+  flex: 0 0 50%;
+}
+.content-section .right-content-2 .button-product {
+  margin-top: 20px;
+}
+
+/* Left content styling */
+.left-content {
+  flex: 1;
+  max-width: 54%;
+  text-align: left;
+}
+
+.left-content .learn-more {
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.left-content .code-example img {
+  width: 100%;
+  align-items: end;
+}
+
+/* Right content styling */
+.right-content {
+  flex: 0 0 46%;
+  margin-left: 60px;
+  margin-right: 0;
+}
+
+.feature-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.feature-list .highlight {
+  color: #ADD8E6;
+}
+.feature-list h5 {
+  font-weight: lighter;
+}
+.feature-list h3 {
+  font-size: 22px;
+  text-align: start;
+}
+.feature-list .card-main {
+  background: white;
+  align-items: end;
+}
+.feature-list .card-main .card-content {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  background: white;
+}
+.feature-list .card-main h3 b {
+  font-size: 18px;
+}
+.feature-list .card-main .feature-item-1 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  background: white;
+}
+.feature-list .card-main .feature-item-2 {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  background: white;
+}
+.feature-list .card-main .feature-item-3 {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background: white;
+}
+.feature-list .card-main .feature-item-4 {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.feature-icon {
+  width: auto;
+  height: auto;
+}
+
+.feature-item p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.about-us {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.about-us .title {
+  text-align: center;
+}
+.about-us h5 {
+  text-align: center;
+  font-weight: lighter;
+}
+.about-us .about-main {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.about-us .about-main .content-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px;
+  gap: 40px;
+}
+.about-us .about-main .content-section .left-content .button-product {
+  margin-top: 50px;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 50px;
+}
+
+.company {
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center; /* Căn giữa nội dung trong header */
+}
+
+.company img {
+  margin-bottom: 10px;
+}
+
+.new-content {
+  background: white;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+.footer-content {
+  padding: 10px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.footer-container .watch-us {
+  flex: 0 0 100%;
+}
+.footer-container .about-us-footer {
+  width: 30%;
+  padding: 5%;
+}
+
+.footer-container .logo {
+  text-align: center;
+  width: 35%;
+}
+
+.footer-container .phone {
+  width: 180px; /* Độ rộng của hình chữ nhật */
+  height: 65px; /* Chiều cao của hình chữ nhật */
+  margin-top: 30px; /* Khoảng đệm */
+  padding: 10px;
+  box-sizing: border-box; /* Sử dụng border-box */
+  border-radius: 5px;
+}
+
+.footer-container .watch-us {
+  width: 30%;
+}
+
+body {
+  margin: 0;
+  padding: 0.1px;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 300px;
+  overflow: hidden;
+}
+.carousel-container .card-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 300px;
+}
+.carousel-container .card {
+  min-width: 300px;
+  height: 200px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin: 0 10px;
+}
+.carousel-container .active {
+  background-color: #4CAF50;
+}
+.carousel-container button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #f1f1f1;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  gap: 10px;
+}
+.carousel-container button:after {
+  background: white;
+}
+.carousel-container .left-button {
+  left: 0;
+}
+.carousel-container .right-button {
+  right: 0;
+}
+
+/*# sourceMappingURL=interface.css.map */

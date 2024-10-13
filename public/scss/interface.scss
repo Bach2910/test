@@ -1,0 +1,67 @@
+/*Variable*/
+@import "variables";
+/*color*/
+@import "color";
+/*manyThing*/
+@import "manything/header";
+@import "manything/_card";
+@import "manything/content";
+@import "manything/footer";
+
+body {
+    margin: 0;
+    padding:0.1px;
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 300px;
+    overflow: hidden;
+
+
+    .card-container {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 300px;
+    }
+
+    .card {
+        min-width: 300px;
+        height: 200px;
+        background-color: lightgray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        margin: 0 10px;
+    }
+
+    .active {
+        background-color: #4CAF50;
+    }
+
+    button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #f1f1f1;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s,color 0.3s;
+        gap:10px
+    }
+    button:after{
+        background: white;
+    }
+    .left-button {
+        left: 0;
+    }
+
+    .right-button {
+        right: 0;
+    }
+}

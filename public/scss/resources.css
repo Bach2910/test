@@ -1,0 +1,612 @@
+@charset "UTF-8";
+li {
+  background: 0 0;
+  list-style: none;
+  line-height: 1.6;
+  margin: 0;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: blue;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+}
+
+.pagination-footer {
+  display: flex;
+}
+
+.card-main-footer {
+  width: 67%;
+  padding: 20px 0 0 0;
+}
+
+.card-body-footer {
+  display: flex;
+  padding: 20px 0 0 0;
+  gap: 20px;
+  border-radius: 2px;
+}
+
+.card-main-footer img {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.next-button {
+  margin-top: 10px;
+  font-size: 10px;
+  color: gray;
+  gap: 10px;
+}
+
+.end-first {
+  display: flex;
+  gap: 3px;
+}
+
+.end-first button {
+  font-size: 10px;
+}
+
+.tag {
+  font-size: 12px;
+  border-radius: 1px;
+  color: white;
+  background-color: black;
+  font-weight: bolder;
+  padding: 5px;
+}
+
+i {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.high-light {
+  color: #ADD8E6;
+  font-weight: bolder;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.button-inform {
+  display: flex;
+  gap: 5px;
+  margin: 30px 0 20px 0;
+  width: 300px;
+}
+
+.first-title {
+  margin-top: 10px;
+  width: 64%;
+}
+
+.first-title h1 {
+  font-size: 23px;
+  font-weight: initial border;
+  margin-bottom: 10px;
+}
+
+.first-title h5 {
+  font-size: 20px;
+  font-weight: italic;
+  line-height: border;
+}
+
+.first-title h3 {
+  font-weight: 17px;
+}
+
+.first-title h2 {
+  font-size: 23;
+  font-weight: border;
+  margin-bottom: 20px;
+}
+
+.toc-wrapper {
+  position: relative;
+  width: 450px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.toc {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  max-height: 300px;
+  overflow-y: auto;
+  display: none; /* Hidden by default */
+  color: black;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 20px;
+  background-color: white;
+  color: gray;
+  text-align: center;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  justify-items: start;
+}
+
+.icon.open {
+  background-color: whitesmoke;
+}
+
+.toc.open {
+  display: block;
+}
+
+.name {
+  width: 220px;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.link {
+  display: flex;
+  font-size: 13px;
+  color: gray;
+}
+
+.link a {
+  margin: 0 5px 0 5px;
+}
+
+#viewMoreBtnExam {
+  display: block; /* Đảm bảo nút là phần tử block để có thể căn chỉnh */
+  margin: 20px auto; /* margin auto sẽ giúp căn giữa theo chiều ngang */
+  cursor: pointer;
+}
+
+#viewMoreBtn {
+  display: block; /* Đảm bảo nút là phần tử block để có thể căn chỉnh */
+  margin: 20px auto; /* margin auto sẽ giúp căn giữa theo chiều ngang */
+  cursor: pointer;
+}
+
+.hidden-div-exam {
+  display: none;
+}
+
+.hidden-div {
+  display: none;
+}
+
+.show {
+  display: flex; /* Or block depending on your layout */
+}
+
+#viewMoreBtnExam:hover {
+  background-color: purple;
+}
+
+#viewMoreBtn:hover {
+  background-color: purple;
+}
+
+.news {
+  background-color: white;
+  column-gap: 20px;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 100%;
+}
+
+.highlighted-post {
+  display: flex;
+  align-items: center;
+  margin: 20px; /* Optional: Adds margin around the container */
+  padding: 0 40px 0 40px;
+}
+
+.highlighted-post img {
+  margin-top: 200px;
+  width: 100%;
+  height: 300px;
+}
+
+.line {
+  flex-grow: 2; /* Makes the line take up the remaining width */
+  border: none;
+  border-top: 2px solid blue; /* Blue line color and thickness */
+  width: 100%;
+}
+
+.card-image img {
+  width: 350px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.picture1 img {
+  width: 100%;
+  object-fit: unset;
+  height: auto;
+}
+
+.card-main {
+  display: flex;
+  justify-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.card-body img {
+  width: 100%;
+  object-fit: cover;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.card-body h5 {
+  margin-bottom: 20px;
+}
+
+.carousel-caption h5 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 0;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: 500px;
+  object-fit: cover; /* Đảm bảo ảnh vừa với khung mà không bị cắt */
+}
+
+.carousel-caption {
+  width: 90%;
+  position: absolute;
+  bottom: 60px; /* Đưa nội dung sát xuống cạnh dưới */
+  left: 30px; /* Căn sát bên trái ảnh, có thể điều chỉnh giá trị để sát hơn */
+  text-align: left; /* Đảm bảo nội dung căn lề trái */
+  padding: 20px; /* Xóa bỏ khoảng padding nếu có */
+}
+
+.slide {
+  height: 100% !important;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+.carousel-inner:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.carousel-control-prev {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: none;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+.carousel-caption button {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.container-fluid {
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: white;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer-resources {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  background-color: white;
+  gap: 20px;
+}
+
+img {
+  width: 250px;
+  height: 150px;
+}
+
+.logo {
+  margin-left: 100px;
+  padding-top: 10px;
+}
+
+.watch-us {
+  flex: 0 0 35%;
+}
+
+.about-us-footer {
+  width: 35%;
+}
+
+.footer-resources .about-us-footer p {
+  font-size: 14px;
+}
+
+.watch-us .button {
+  display: flex;
+  padding: 10px 0 0 0;
+  color: white; /* Màu chữ */
+  cursor: pointer; /* Hiển thị con trỏ khi hover */
+  gap: 20px;
+}
+
+.watch-us button:hover {
+  background-color: purple; /* Màu nền khi hover */
+}
+
+.navbar-resources {
+  background-color: white;
+  padding: 0 5% 0 5%;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+  unicode-bidi: isolate;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+#prevBtn {
+  display: inline-block;
+  margin-right: 7px;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #dcdcdc;
+  line-height: 24px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 7px;
+  color: #b7b7b7;
+}
+
+#nextBtn {
+  display: inline-block;
+  margin-right: 7px;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #dcdcdc;
+  line-height: 24px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 7px;
+  color: #b7b7b7;
+}
+
+.entry-title {
+  word-wrap: break-word;
+}
+
+@media (max-width: 380xp) {
+  .p-5 {
+    max-width: 300px;
+    overflow-x: auto; /* Bật thanh cuộn ngang */
+    white-space: nowrap; /* Đảm bảo nội dung không xuống dòng */
+  }
+}
+.search-container {
+  align-items: center;
+}
+
+.search-box {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  display: none; /* Ẩn cả input và button ban đầu */
+  transform: translateY(20px); /* Dịch chuyển lên trên icon ban đầu */
+  position: absolute; /* Định vị tuyệt đối */
+  top: 30px;
+  right: 310px;
+}
+.search-box .search-button {
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  width: auto;
+  font-size: 17px;
+}
+
+.search-icon {
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+.search-icon i {
+  font-size: 18px;
+}
+
+.people-header-title {
+  width: 1068px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center !important;
+}
+.people-header-title .button-selection {
+  text-align: right !important;
+}
+.people-header-title .button-selection a {
+  text-align: center !important;
+}
+.people-header-title h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.people-header-title p {
+  font-style: italic;
+}
+.people-header-title .btn-dark {
+  text-align: right !important;
+}
+.people-header-title .description {
+  width: 100%;
+}
+.people-header-title .description p {
+  font-style: italic;
+  font-family: open sans, open sans regular, sans-serif;
+  color: #777;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+
+.td-container-wrap {
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.td-container-wrap .td-container {
+  width: 1068px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.td-container-wrap .td-container .td-pb-row [class*=td-pb-span] {
+  display: block;
+  min-height: 1px;
+  float: left;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+.td-container-wrap .td-container .td_module_11 {
+  display: flex;
+  gap: 30px;
+}
+.td-container-wrap .td-container .td_module_11 .td-module-thumb {
+  width: 30%;
+}
+.td-container-wrap .td-container .td_module_11 .td-module-thumb img {
+  height: 250px;
+  width: 100%;
+}
+.td-container-wrap .td-container .td_module_11 .item-details {
+  width: 70%;
+}
+.td-container-wrap .td-container .td_module_11 .item-details .td-module-title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 23px;
+  text-align: left !important;
+  width: 48%;
+}
+.td-container-wrap .td-container .td_module_11 .item-details .module-meta-info {
+  font-family: open sans, open sans regular, sans-serif;
+  font-size: 11px;
+  margin-bottom: 7px;
+  line-height: 1;
+  min-height: 17px;
+  width: 40px;
+  padding: 1px;
+}
+.td-container-wrap .td-container .td_module_11 .item-details .module-meta-info .td-post-category {
+  font-family: open sans, open sans regular, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1;
+  background-color: #222;
+  color: #fff;
+  padding: 3px;
+  display: block;
+  text-align: center;
+  width: 70px;
+}
+.td-container-wrap .td-container .td_module_11 .item-details .excerpt {
+  font-size: 13px;
+  color: #767676;
+  font-family: open sans, open sans regular, sans-serif;
+  margin-top: 9px;
+  width: 48%;
+}
+.td-container-wrap .td-container .td_module_11 .item-details .read-more {
+  display: inline-block;
+  font-family: roboto, sans-serif;
+  margin-bottom: 20px;
+  background-color: #2C4A9F;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  padding-top: 1px;
+}
+.td-container-wrap .td-container .td_module_11 .item-details .read-more .td-post-category {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+.td-container-wrap .td-container .td_module_11 .item-details .read-more:hover {
+  background-color: black;
+}
+
+.pagination-wrapper {
+  margin-top: 100px;
+}
+
+/*# sourceMappingURL=resources.css.map */

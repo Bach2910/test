@@ -1,0 +1,44 @@
+.card-main-1{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-main-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.card-container {
+    display: flex; /* Sắp xếp các thẻ theo chiều ngang */
+    justify-content: space-between; /* Tạo khoảng cách đều giữa các thẻ */
+    flex-wrap: wrap; /* Khi số lượng thẻ vượt quá sẽ được đẩy xuống dòng dưới */
+    gap: 20px; /* Khoảng cách giữa các thẻ*/
+    padding-top: 20px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.card {
+    flex: 0 0 calc(50% - 20px); /* Đảm bảo rằng mỗi thẻ chiếm 50% chiều rộng trừ đi khoảng cách */
+    width: 18rem;
+    border-radius: 10px; /* Bo góc card (tùy chọn) */
+    .card-title{
+        font-size:18px;
+        text-align: center;
+    }
+    .card-text{
+        font-size:16px;
+        text-align: center;
+    }
+    .card-body img {
+        display: flex;
+        align-items: center; /* Căn giữa theo trục dọc */
+        justify-content: center; /* Căn giữa theo trục ngang */
+        max-width: 100%; /* Đảm bảo rằng hình ảnh không vượt quá kích thước của thẻ */
+        height: auto; /* Đảm bảo hình ảnh giữ nguyên tỷ lệ */
+    }
+}
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+    }
+}

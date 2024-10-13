@@ -1,0 +1,34 @@
+.footer-content{
+    padding: 10px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 5%;
+    padding-left: 5%;
+    .watch-us{
+        flex:0 0 100%
+    }
+    .about-us-footer{
+        width: 30%;
+        padding: 5%;
+    }
+}
+.footer-container .logo{
+    text-align: center;
+    width: 35%;
+}
+.footer-container .phone{
+    width: 180px; /* Độ rộng của hình chữ nhật */
+    height: 65px; /* Chiều cao của hình chữ nhật */
+    margin-top: 30px; /* Khoảng đệm */
+    padding: 10px;
+    box-sizing: border-box; /* Sử dụng border-box */
+    border-radius: 5px;
+}
+.footer-container .watch-us{
+    width:30%
+}

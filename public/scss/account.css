@@ -1,0 +1,232 @@
+.register {
+  width: 100%;
+  justify-content: space-between;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+.left-div {
+  width: 50%;
+  padding-right: 40px;
+}
+
+.right-div {
+  width: 50%;
+  margin: auto;
+  border: 2px solid #fff; /* 2px thick, solid white border */
+  padding: 10px; /* Add some space inside the border */
+  border-radius: 8px; /* Optional: Rounded corners for the border */
+}
+
+.login-line {
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  top: 0.7rem;
+  background: #fff;
+  width: 100%;
+}
+
+.right-div form {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.right-div img {
+  width: auto;
+  height: 100px;
+  align-items: center;
+}
+
+.right-div .country {
+  margin-bottom: 100px;
+  text-align: end;
+}
+
+.right-div .country select {
+  width: 100px;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.form-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.form-control {
+  padding-left: 40px;
+}
+
+.name {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.phone {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.company {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.email {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.password-again-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.password-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.right-div p {
+  width: 100%;
+  max-width: 300px;
+  color: #718096;
+  font-size: 13px;
+}
+
+input[type=password], input[type=text], input[type=email] {
+  width: 100%;
+  font-size: 16px;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.right-div .btn-primary {
+  position: relative;
+  width: 100%;
+  background-color: #1a4c9d;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.carousel {
+  background-color: rgb(240, 246, 255);
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item {
+  padding: 40px;
+}
+
+.carousel-item h2 {
+  color: #003b74;
+  text-align: center;
+}
+
+.carousel-item p {
+  color: #333;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 50%;
+  align-items: center;
+}
+
+.carousel .carousel-indicators button {
+  background-color: #1a4c9d;
+}
+
+.note {
+  font-weight: 700;
+}
+
+.forgot {
+  align-items: start;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: content-box;
+  display: block;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  unicode-bidi: isolate;
+  margin-bottom: 10px;
+}
+
+.btn-topcv {
+  width: 100%;
+  background: #f0f6ff;
+  border-radius: 0.24rem;
+  text-align: center;
+  text-transform: none;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  min-height: 2.5rem;
+  transition: background-color 0.2s ease-in-out 0s, border-color 0.2s ease-in-out 0s;
+  color: #2c4a9f;
+}
+
+.title h3 {
+  font-weight: 600 !important;
+  font-size: 2rem !important;
+  line-height: 2.375rem !important;
+  color: #0a2161;
+  margin-left: 100px;
+  text-align: center;
+  margin-right: 100px;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+  unicode-bidi: isolate;
+  width: 100%;
+}
+
+.note-pass {
+  width: 100%;
+  text-align: left;
+  font-size: 1rem !important;
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+
+.box-action {
+  padding: 4.25rem 8.348rem;
+  text-align: center;
+}
+
+.card {
+  border: none;
+  box-shadow: none;
+}
+
+/*# sourceMappingURL=account.css.map */
